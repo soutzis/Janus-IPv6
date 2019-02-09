@@ -41,23 +41,6 @@ class Routing:
 
 # Class that represents the Routing database
 class Logs(LogRepository):
-    # TODO IMPLEMENT ABSTRACT METHODS
-    @db_session
-    def get_logs_by_date(self, date):
-        pass
-
-    @db_session
-    def clear_logs(self):
-        pass
-
-    @db_session
-    def truncate_table(self):
-        pass
-
-    @db_session
-    def disconnect(self):
-        self.db.disconnect()
-
     def __init__(self, db_name='Logs'):
         try:
             self.db = Connection.Connection.connect_db_server_default(db_name)
@@ -107,6 +90,23 @@ class Logs(LogRepository):
     @db_session
     def get_all_logs(self):
         return self.db.select("SELECT * FROM log_records")
+
+    # TODO IMPLEMENT ABSTRACT METHODS
+    @db_session
+    def get_logs_by_date(self, date):
+        pass
+
+    @db_session
+    def clear_logs(self):
+        pass
+
+    @db_session
+    def truncate_table(self):
+        pass
+
+    @db_session
+    def disconnect(self):
+        self.db.disconnect()
 
 
 # x = Routing('Routing')
