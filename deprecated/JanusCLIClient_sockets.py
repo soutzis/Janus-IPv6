@@ -2,7 +2,7 @@
 import argparse
 import cmd2
 from colorama import Fore
-from utils import StaticContent
+from utils import static
 import socket
 
 
@@ -13,8 +13,8 @@ ENCODING = 'utf-8'  # the encoding of the characters to be used by client
 
 class Cli(cmd2.Cmd):
     """This is the CLI for Janus_IPv6"""
-    intro = Fore.LIGHTRED_EX + StaticContent.INTRO_ART2 + StaticContent.INTRO
-    prompt = Fore.GREEN + StaticContent.PROMPT + Fore.LIGHTWHITE_EX
+    intro = Fore.LIGHTRED_EX + static.INTRO_ART2 + static.INTRO
+    prompt = Fore.GREEN + static.PROMPT + Fore.LIGHTWHITE_EX
 
     def __init__(self, host=SERVER_ADDRESS, port=PORT, enc=ENCODING):
         cmd2.Cmd.__init__(self)

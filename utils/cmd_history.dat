@@ -1,0 +1,842 @@
+quit
+help
+help quit
+quit
+monitor
+connect -d
+monitor
+quit
+connect -d
+monitor
+quit
+monitor
+connect -d
+monitor
+quit
+connect -d
+monitor
+quit
+connect -d
+monitor
+quit
+connect -d
+monitor
+quit
+connect -d
+monitor
+quit
+connect -ip ::1
+monitor
+quit
+connect --default
+monitor
+set debug true
+monitor
+quit
+conenct -d
+connect --default
+monitor
+quit
+connect --default
+monitor
+quit
+monitor
+quit
+monitor
+connect --default
+monitor
+quit
+connect -d
+monitor
+set debug true
+monitor
+quit
+connect -d
+monitor
+quit
+connect --default
+monitor
+clear
+quit
+connect -ip ::1
+connect -d
+monitor
+quit
+connect 0d
+connect -d
+monitor
+quit
+connect 0d
+connect -d
+monitor
+quit
+connect -d
+monitor
+quit
+connect -d
+monitor
+quit
+connect -d
+monitor
+quit
+connect -d
+monitor
+quit
+connect -d
+monitor
+quit
+connect --default
+monitor
+quit
+connect -d
+monitor
+quit
+connect -d
+monitor
+quit
+connect -ip ::1
+monitor
+quit
+monitor
+connect -ip ::1
+monitor
+quit
+connect -d
+quit
+connect -d
+quit
+connect -d
+monitor
+quit
+connect -d
+monitor
+quit
+connect -d
+query logs 
+query logs custom "SELECT * FROM log_records"
+monitor
+quit
+connect -d
+monitor
+quit
+connect -d
+monitor
+quit
+connect -ip ::1
+monitor
+quit
+connect -d
+monitor
+quit
+connect --default
+monitor
+quit
+connect -ip ::1
+help
+monitor
+quit
+connect -d
+help
+monitor
+quit
+help
+connect -ip ::1
+help
+disconnect
+monitor
+connect --default
+help
+monitor
+query logs custom "SELECT * FROM log_records;"
+help query custom
+query help
+query -h logs
+clear
+quit
+?
+help
+help query
+query show
+query logs show
+connect -d
+query logs show -h
+query logs show --show_tables
+query logs select * from log_records
+query logs custom select * from log_records
+query logs custom "select * from log_records"
+query logs select --attributes id,datetime
+query logs select --attributes id,datetime -t log_records
+query logs select --attributes id -t log_records
+query logs select --attributes id,date_time -t log_records
+query logs select -h
+query logs show -h
+query logs show --attributes
+query logs show --attributes log_records
+quit
+help
+connect
+connect ?
+connect -d
+query ?
+query -h
+query logs select -h
+query logs show
+query logs show -h
+query logs show --show_tables
+query logs select log_records
+query logs select -t log_records -a id
+query logs show -t log_records
+query logs show -h
+query logs show --describe log_records
+query logs show --attributes log_records
+quit
+help
+quit
+connect -ip ::1
+query logs custom "select * from logs"
+quit
+connect --default
+query logs select -a * -t log_records
+query routing select -a * -t addresses
+quit
+connect --default
+query routing select -h
+query routing select --attributes * --table addresses
+query flows select --attributes * --table flows
+quit
+query flows select --attributes * --table flows
+connect -d
+query flows select --attributes * --table flows
+quit
+connect -d
+hello
+help
+monitor
+rule
+quit
+connect
+connect -d
+connect -d  f
+quit
+connect
+help connect
+connect -h
+quit
+connect -d
+query -h
+query adsf asd
+query logs
+query logs show -h
+query logs show --show_tables
+query logs show --show_tables --describe
+query logs show --show_tables --describe asdf
+query logs show --describe log_records
+exit
+quit
+connect -d
+quit
+connect -d
+disconnect
+connect -d
+disconnect
+connect -ip ::
+disconect
+disconnect
+connect -ip ::
+quit
+connect -ip ::1
+disconnect
+connect -d
+exit
+quit
+connect -d
+connect --default
+disconnect 
+connect --default
+disconnect 
+connect --default
+quit
+connect -d
+query logs select -h
+query logs select -t log_Records -a mac_src_address, protocol
+query logs select -t log_Records -a mac_src_address protocol
+query logs select -t log_records -a mac_src_address protocol
+clear
+query logs select -t log_records -a mac_src_address protocol
+query logs select -t log_records -a mac_src_address, protocol
+query logs select -t log_records -a mac_src_address protocol
+quit
+connect --default
+query flows custom "SELECT eth_dst, eth_src FROM flows";
+quit
+connect --default
+query flows custom "SELECT eth_dst, eth_src FROM flows";
+adfs
+query
+connect -d
+disconnect
+connect -d
+quit
+connect -d
+quit
+connect -d
+quit
+connect -d
+quit
+connect -d
+di
+disconnect 
+connect
+connect -d
+quit
+connect -d
+disconnect 
+connect -d
+disconnect 
+quit
+connect -d
+disconnect 
+connect -d
+quit
+connect -d
+quit
+connect -d
+quit
+connect -d
+disconnect 
+connect -d
+disconnect 
+connect -d
+disconnect 
+quit
+connect -d
+query flows custom "SELECT eth_dst, eth_src FROM flows";
+quit
+connect -d
+query flows select "SELECT eth_dst, eth_src FROM flows";
+query flows select -t flows -a eth_dst src_ip_address
+query flows select -t flows -a eth_dst ipv6_src
+query flows select -t flows -a ipv6_src eth_dst
+exit
+quit
+connect -d
+query show --show_tables flows
+query flows show --show_tables
+query flows show --show_tables -h
+query flows show --show_tables flows
+query flows show --show_tables
+query routing show --show_tables
+quit
+connect -d
+query routing show --show_tables
+quit
+connect -d
+query routing show --show_tables
+quitA
+connect -d
+query routing show --show_tables
+quit
+connect -d
+query routing show --show_tables
+quit
+connect -d
+query routing show --show_tables
+quit
+connect -d
+query routing show --show_tables
+quit
+query routing show --show_tables
+connect -d
+query routing show --show_tables
+quit
+query routing show --show_tables
+connect -d
+query routing show --show_tables
+quit
+connect -d
+query routing show --show_tables
+quit
+connect -d
+query routing show --show_tables
+quit
+connect -d
+query routing show --show_tables
+quit
+connect -d
+query routing show --show_tables
+quit
+connect -d
+query routing show --show_tables
+quit
+query routing show --show_tables
+connect -d
+query routing show --show_tables
+quit
+connect -d
+query routing show --show_tables
+quit
+connect -d
+query routing show --show_tables
+quit
+connect -d
+query routing show --show_tables
+quit
+connect -d
+query routing show --show_tables
+quit
+connect -d
+query routing show --show_tables
+quit
+connect -d
+query routing show --show_tables
+quit
+connect -d
+query routing show --show_tables
+quit
+connect -d
+query routing show --show_tables
+quit
+connect -d
+query routing show --show_tables
+quit
+connect -d
+query routing show --show_tables
+quit
+connect -d
+query routing show --show_tables
+quit
+connect -d
+query routing show --describe
+query routing show --describe addresses
+quit
+connect -d
+query routing show --describe addresses
+query flows show --describe flows
+query flows show --attributes
+query flows show --attributes flows
+quit
+connect -d
+query flows show --attributes flows
+query flows show --attributes -h
+quit
+connect -d
+query flows show --attributes flows
+quit
+connect -d
+query flows show --attributes flows
+quit
+connect -d
+query flows show --table_attributes flows
+query flows show --describe flows
+quit
+connect -d
+monitor
+quit
+connect -d
+monitor
+quit
+connect -d
+monitor
+quit
+connect -d
+moni
+monitor 
+quit
+connect 0d
+connect -d
+monitor
+quit
+connect -d
+monitor
+quit
+connect -d
+monitor
+quit
+connect -d
+monitor
+quit
+connect -d
+monitor
+quit
+connect -d
+monitor
+quit
+connect -d
+monitor
+quit
+connect -d
+monitor
+quit
+connect -d
+monitor
+quit
+connect -d
+monitor
+quit
+conect -
+connect --default
+monitor
+quit
+connect --default
+monitor
+quit
+connect --default
+monitor 
+quit
+connect --default
+monitor 
+quit
+connect --default
+monitor 
+quit
+connect --default
+monitor 
+quit
+connect --default
+monitor 
+quit 
+connect --default
+monitor 
+quit 
+connect --default
+monitor 
+quit 
+connect --default
+monitor 
+quit 
+connect --default
+monitor 
+quit 
+connect --default
+monitor 
+set debug true
+quit
+connect --default
+monitor 
+quit
+connect --default
+monitor 
+quit
+connect --default
+monitor 
+quit 
+connect --default
+monitor 
+quit 
+connect --default
+monitor 
+quit
+connect --default
+monitor 
+quit#
+connect --default
+monitor 
+quit
+connect --default
+monitor 
+quit
+connect --default
+monitor 
+quit
+connect --default
+monitor 
+quit
+connect --default
+monitor 
+quit
+connect --default
+monitor 
+quit
+admin
+connect --default
+monitor 
+query logs select -h
+query logs select -t log_records
+query logs select -t log_records -a 
+query logs select -t log_records -a date_time
+query logs show -h
+query logs show --describe
+query logs show --describe log_records
+query logs custom "SELECT * FROM log_records";
+quit
+connect --default
+query logs custom "SELECT * FROM log_records";
+query flows custom "SELECT * FROM flows";
+quit
+connect --default
+query flows custom "SELECT * FROM flows";
+query routing custom "SELECT * FROM addresses";
+query flows custom "SELECT * FROM flows";
+quit
+query flows custom "SELECT * FROM flows";
+quit
+connect --default
+monitor
+quit
+connect --default
+monitor
+quit
+connect --default
+monitor
+quit
+connect --default
+monitor
+quit
+connect --defaukt
+connect --default
+query flows custom "SELECT * FROM flows";
+quit
+connect -d
+query flows custom "SELECT * FROM flows";
+monitor
+quit
+connect -d
+monitor
+quit
+connect -d
+monitor
+quit
+connect -d
+monitor
+quit
+connect -d
+monitor
+quit
+connect -d
+monitor
+quit
+connect -d
+monitor
+quit
+connect -d
+monitor
+quit
+connect -d
+monitor
+quit
+connect -d
+monitor
+quit
+connect -d
+monitor
+quit
+connect -d
+monitor
+query flows custom "SELECT * FROM flows";
+quit
+connect --default
+help
+rule -a
+rule --add
+quit
+rule -a
+connect --default
+rule -a
+Example Rule
+3
+n
+quit
+connect-d
+connect -d
+rule
+help connect
+connect -d
+rule -a
+asdf
+asd
+adsf
+65535
+y
+asdf
+afsd
+2
+ad
+adf
+Y
+adc
+n
+quit
+connect 
+connect --default
+rule -a
+ad
+23
+n
+y
+34555
+2048
+quit
+connect -d
+rule -a
+quit
+connect -d
+rule -a
+describe
+1
+y
+1
+y
+ff:ff:ff:ff:ff:ff
+q
+y
+aa:aa:12:13:as:qc
+y
+34535
+34525
+y
+3
+y
+asd
+y
+h
+234
+58
+y
+128
+n
+quit
+connect -d
+rule -a
+quit
+connect -d
+rule -a
+quit
+connect -d
+rule -a
+quit
+connect -d
+rule -a
+asdfsa
+1
+y
+2
+ysadsfd
+n
+quit
+connect -d
+rule -a
+quit
+connect -d
+rule -a
+quit
+connect -d
+query flows custom "SELECT date_time from flows"
+query flows custom "SELECT expiration_time from flows"
+query logs custom "SELECT * FROM log_records"
+quit
+connect -d
+query logs custom "SELECT * FROM log_records"
+quit
+connect -d
+rule --add
+This is a Test
+5
+n
+y
+00:00:00:00:00:01
+n
+y
+34525
+y
+2001::43
+n
+quit
+connect -d
+rule --add
+TEST
+1
+y
+1
+y
+00:00:00:00:00:01
+n
+quit
+connect -d
+rule --add
+test
+1
+n
+y
+23423
+n
+quit
+connect -d
+rule -a
+TEST RULE
+3
+n
+y
+00:00:00:00:00:01
+n
+quit
+connect -d
+rule --ad
+DEMO RULE
+12
+n
+y
+00:00:00:00:00:01
+n
+y
+34525
+n
+quit
+connect -d
+rule -m7
+rule -m
+quit
+connect -d
+rule -m
+quit 
+connect -d
+rule -m
+quit
+connect -d
+rule -m
+quit
+connect -d
+monitor
+query flows select -h
+query flows custom "SELECT * FROM flows"
+monitor
+quit
+connect -d
+rule -m
+1
+quit
+connect -d
+rule =h
+rule -h
+rule -s
+0
+quit
+connect -d
+rule -s
+quit
+admin
+connect -d
+rule -s
+0
+rule -s
+1
+rule -s
+423
+quit
+connect 
+connect -d
+rule -s
+1
+-
+0
+rule --modify
+0
+n
+y
+2
+n
+y
+00:00:00:00:00:10
+n
+rule --show
+0
+quit

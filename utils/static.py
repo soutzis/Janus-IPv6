@@ -25,8 +25,23 @@ INTRO_ART2 = '   ___                         ___________        ____ \n' \
              '\\____/ \\__,_|_| |_|\\__,_|___/  \\___/\\_|     \\_/ \\_____/\n' \
              '                                                       \n'
 
+# This is the message that will be displayed the first time that the CLI is fired up
 INTRO = 'You have entered the \'JanusIPv6\' interactive command-line ' \
         'interface.\nType \'?\' or \'help\'' \
         ' to see a list of the available commands.'
 
+# This is the prompt message (what the user sees as an indicator to enter his/her command).
 PROMPT = 'JanusIPv6 >>> '
+
+# The error to give the user when they are not connected to the repository
+NOT_CONNECTED_ERROR = "Not connected to the repository. Use \"$ help connect\" for more information."
+
+# ================================ #
+# =======COMMAND CATEGORIES======= #
+# ================================ #
+CMD_CATEGORY_CONNECTION = 'Connection to Repository'
+CMD_CATEGORY_DATABASE = 'Querying the Repository'
+CMD_CATEGORY_MONITOR = 'Monitoring Events from Janus'
+CMD_CATEGORY_RULES = 'Create or Modify a rule for Janus'
+
+LOG_REC_DESC = ""

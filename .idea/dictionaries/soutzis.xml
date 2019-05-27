@@ -2,6 +2,55 @@
   <dictionary name="soutzis">
     <words>
       <w>argparse</w>
+      <w>bytepairs</w>
+      <w>datagrams</w>
+      <w>datapath</w>
+      <w>dpid</w>
+      <w>dtime</w>
+      <w>ethertype</w>
+      <w>ethertypes</w>
+      <w>ethtypes</w>
+      <w>exthdr</w>
+      <w>ffff</w>
+      <w>firstrow</w>
+      <w>flabel</w>
+      <w>hdrs</w>
+      <w>iana</w>
+      <w>icmp</w>
+      <w>icmpv</w>
+      <w>inet</w>
+      <w>intf</w>
+      <w>ipaddress</w>
+      <w>jumbogram</w>
+      <w>jumbograms</w>
+      <w>lldp</w>
+      <w>logid</w>
+      <w>mininet</w>
+      <w>mpls</w>
+      <w>multicasting</w>
+      <w>netflows</w>
+      <w>ofproto</w>
+      <w>openflow</w>
+      <w>petros</w>
+      <w>psoutzis</w>
+      <w>psql</w>
+      <w>pswd</w>
+      <w>pswds</w>
+      <w>quagga</w>
+      <w>radvd</w>
+      <w>rulesets</w>
+      <w>ryuapp</w>
+      <w>soutzis</w>
+      <w>strftime</w>
+      <w>subparser</w>
+      <w>tablename</w>
+      <w>tclass</w>
+      <w>topo</w>
+      <w>topos</w>
+      <w>trustlevel</w>
+      <w>unicast</w>
+      <w>vlan</w>
+      <w>wspace</w>
     </words>
   </dictionary>
 </component>

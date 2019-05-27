@@ -1,0 +1,17 @@
+{
+    "blacklist": [
+        {
+            "description": "Drop all traffic from host with mac address 00:00:00:00:00:02",
+            "eth_src": "00:00:00:00:00:02",
+            "priority": 10,
+            "action": "drop"
+        },
+        {
+            "description": "drop all traffic from host witch IPv6 address",
+            "eth_type": 34525,
+            "ipv6_src": "10.0.0.2",
+            "priority": 10,
+            "action": "drop"
+        }
+    ]
+}
