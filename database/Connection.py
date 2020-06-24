@@ -12,9 +12,9 @@ documentation of each class that represents a database.
 class Connection:
     # This will initialize a connection to the default database
     @staticmethod
-    def connect_db_server_default(db_name='', host_addr='127.0.0.1'):
+    def connect_db_server_default(username, password, db_name='', host_addr='127.0.0.1'):
         db = orm.Database()
-        db.bind(provider='mysql', user='root', password='1216024', host=host_addr, database=db_name)
+        db.bind(provider='mysql', user=username, password=password, host=host_addr, database=db_name)
 
         return db
 

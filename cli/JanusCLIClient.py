@@ -105,8 +105,8 @@ class Cli(cmd2.Cmd):
         if args.add:
             try:
                 new_rule = self._add_new_rule()
-                # Length should be at least larger than 3 (action, description, priority are mandatory, but useless)
-                if len(new_rule) <= 3:
+                # Length should be at least or larger than 3 (action, description, priority are mandatory, but useless)
+                if len(new_rule) >= 3:
                     ruleset['blacklist'].append(new_rule)
                     server_api.update_ruleset(ruleset)
                 else:

@@ -60,5 +60,5 @@ def fragment_covert_channel(src, dst):
     send(pkt2)
 
 
-# version_covert_channel("fe80::49:3cff:fe20:c149", "fe80::24c5:6ff:fea8:94b1", 11)
-fragment_covert_channel("fe80::cfe:96ff:fed8:6591", "fe80::1c10:35ff:fe43:d93")
+version_covert_channel("fe80::49:3cff:fe20:c149", "fe80::fc16:49ff:feac:f402", 11)
+# fragment_covert_channel("fe80::cfe:96ff:fed8:6591", "fe80::1c10:35ff:fe43:d93")
